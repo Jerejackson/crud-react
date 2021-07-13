@@ -37,10 +37,6 @@ function a11yProps(index) {
   };
 }
 
-function foco(){
-  document.getElementById('inputBusqueda').focus();
-}
-
 const Cuerpo = () => {
   const [value, setValue] = React.useState(0);
 
