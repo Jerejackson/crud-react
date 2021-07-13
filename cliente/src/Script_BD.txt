@@ -1,0 +1,11 @@
+create database "prueba-react";
+
+use "prueba-react";
+
+create table usuario(
+	identificacion int Primary key,
+	nombre varchar(50) NOT NULL,
+	email varchar(50) NOT NULL,
+	fechaNac date NOT NULL,
+	fechaCreacion date NOT NULL
+);
